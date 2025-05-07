@@ -3,7 +3,7 @@ import java.net.*;
 public class MulticastChatServer {
 
     public static void main(String args[]) throws Exception {
-        int portnumber = 5000;
+        int portnumber = 50005;
         if (args.length >= 1) {
             portnumber = Integer.parseInt(args[0]);
         }
